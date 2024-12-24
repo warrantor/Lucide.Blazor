@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lucide.Blazor", "Lucide.Blazor\Lucide.Blazor.csproj", "{10983A6B-BBD6-46A4-B667-9DFF2C23D4AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lucide.Blazor.Generator", "Lucide.Blazor.Generator\Lucide.Blazor.Generator.csproj", "{D75DEAAF-9241-4877-924F-CF148E7A3B73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{180362EA-1F93-4E60-84C8-E1B72584CB4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.App", "BlazorWasm.App\BlazorWasm.App.csproj", "{D89752C2-48F1-48A1-914B-79FB2FC44505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucide.Blazor.Extensions", "Lucide.Blazor.Extensions\Lucide.Blazor.Extensions.csproj", "{D85CA607-6163-462E-AEAB-4340590B64FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10983A6B-BBD6-46A4-B667-9DFF2C23D4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10983A6B-BBD6-46A4-B667-9DFF2C23D4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10983A6B-BBD6-46A4-B667-9DFF2C23D4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10983A6B-BBD6-46A4-B667-9DFF2C23D4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75DEAAF-9241-4877-924F-CF148E7A3B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75DEAAF-9241-4877-924F-CF148E7A3B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75DEAAF-9241-4877-924F-CF148E7A3B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75DEAAF-9241-4877-924F-CF148E7A3B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89752C2-48F1-48A1-914B-79FB2FC44505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89752C2-48F1-48A1-914B-79FB2FC44505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89752C2-48F1-48A1-914B-79FB2FC44505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89752C2-48F1-48A1-914B-79FB2FC44505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85CA607-6163-462E-AEAB-4340590B64FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85CA607-6163-462E-AEAB-4340590B64FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85CA607-6163-462E-AEAB-4340590B64FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85CA607-6163-462E-AEAB-4340590B64FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D89752C2-48F1-48A1-914B-79FB2FC44505} = {180362EA-1F93-4E60-84C8-E1B72584CB4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A85EFD-2BE1-4E5C-A812-5190384ED932}
+	EndGlobalSection
+EndGlobal
