@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.App", "BlazorWas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lucide.Blazor.Extensions", "Lucide.Blazor.Extensions\Lucide.Blazor.Extensions.csproj", "{D85CA607-6163-462E-AEAB-4340590B64FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{3A6DAD54-D896-4C07-B607-43E55FC7197B}"
+	ProjectSection(SolutionItems) = preProject
+		assets\images\logo.dark.png = assets\images\logo.dark.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

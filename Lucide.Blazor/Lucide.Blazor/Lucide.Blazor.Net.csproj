@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/Jose-LeonJL/Lucide.Blazor</RepositoryUrl>
     <PackageTags>Icos,Lucide,Blazor</PackageTags>
     <PackageId>$(AssemblyName)</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.1.1</Version>
   </PropertyGroup>
 
 
@@ -21,13 +21,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="C:\Users\josem\OneDrive\Imágenes\logo.dark.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
@@ -40,6 +33,13 @@
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
 		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\assets\images\logo.dark.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
   <ItemGroup>

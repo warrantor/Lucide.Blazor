@@ -10,11 +10,11 @@
     <PackageIcon>logo.dark.png</PackageIcon>
     <PackageTags>Icos,Lucide,Blazor</PackageTags>
     <RepositoryUrl>https://github.com/Jose-LeonJL/Lucide.Blazor</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\josem\OneDrive\Imágenes\logo.dark.png">
+    <None Include="..\assets\images\logo.dark.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
