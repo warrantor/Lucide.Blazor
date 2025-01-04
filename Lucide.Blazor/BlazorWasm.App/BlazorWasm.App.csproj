@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Lucide.Blazor.Extensions\Lucide.Blazor.Extensions.csproj" />
-    <ProjectReference Include="..\Lucide.Blazor\Lucide.Blazor.csproj" />
+    <ProjectReference Include="..\Lucide.Blazor\Lucide.Blazor.Net.csproj" />
   </ItemGroup>
 
   <ItemGroup>

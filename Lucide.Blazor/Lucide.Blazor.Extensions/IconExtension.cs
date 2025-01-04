@@ -12,10 +12,25 @@ namespace Lucide.Blazor.Extensions
 {
     public static class IconExtension
     {
-        public static IServiceCollection AddLucideIcons(this IServiceCollection services, [StringSyntax(StringSyntaxAttribute.Uri)] string UrlIcons)
+#if NET6_0
+        public static IServiceCollection AddLucideIcons(this IServiceCollection services, string UrlIcons)
         {
             IconSets.Initialize(services.BuildServiceProvider().GetRequiredService<HttpClient>(), UrlIcons);
             return services;
         }
+#elif NET7_0
+       public static IServiceCollection AddLucideIcons(this IServiceCollection services, [StringSyntax(StringSyntaxAttribute.Uri)] string UrlIcons)
+        {
+            IconSets.Initialize(services.BuildServiceProvider().GetRequiredService<HttpClient>(), UrlIcons);
+            return services;
+        }
+#elif NET8_0
+       public static IServiceCollection AddLucideIcons(this IServiceCollection services, [StringSyntax(StringSyntaxAttribute.Uri)] string UrlIcons)
+        {
+            IconSets.Initialize(services.BuildServiceProvider().GetRequiredService<HttpClient>(), UrlIcons);
+            return services;
+        }
+#endif
+
     }
 }
