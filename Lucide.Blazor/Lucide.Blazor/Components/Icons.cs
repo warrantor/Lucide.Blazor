@@ -86,7 +86,8 @@ namespace Lucide.Blazor.Components
 
         public RenderFragment RenderIcon => builder =>
         {
-            
+            builder.OpenElement(0, "svg");
+            builder.AddAttribute(1, "xmlns", "http://www.w3.org/2000/svg");
             if (string.IsNullOrWhiteSpace(Css))
             {
                 builder.AddAttribute(2, "width", Width);

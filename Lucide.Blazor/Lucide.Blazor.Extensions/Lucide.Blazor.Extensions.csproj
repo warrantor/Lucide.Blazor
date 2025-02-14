@@ -11,10 +11,20 @@
     <RepositoryUrl>https://github.com/Jose-LeonJL/Lucide.Blazor</RepositoryUrl>
     <PackageTags>Icos,Lucide,Blazor</PackageTags>
     <Authors>Jose-LeonJL</Authors>
-    <Version>1.1.1</Version>
+    <Version>1.1.3</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\assets\images\logo.dark.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
