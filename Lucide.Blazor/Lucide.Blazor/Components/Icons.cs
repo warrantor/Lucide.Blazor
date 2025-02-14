@@ -88,8 +88,11 @@ namespace Lucide.Blazor.Components
         {
             builder.OpenElement(0, "svg");
             builder.AddAttribute(1, "xmlns", "http://www.w3.org/2000/svg");
-            builder.AddAttribute(2, "width", Width);
-            builder.AddAttribute(3, "height", Height);
+            if (string.IsNullOrWhiteSpace(Css))
+            {
+                builder.AddAttribute(2, "width", Width);
+                builder.AddAttribute(3, "height", Height);
+            }
             builder.AddAttribute(4, "viewBox", ViewBox);
             builder.AddAttribute(5, "fill", Fill);
             builder.AddAttribute(6, "stroke", Stroke);
