@@ -18,13 +18,7 @@ namespace Lucide.Blazor.Extensions
             IconSets.Initialize(services.BuildServiceProvider().GetRequiredService<HttpClient>(), UrlIcons);
             return services;
         }
-#elif NET7_0
-       public static IServiceCollection AddLucideIcons(this IServiceCollection services, [StringSyntax(StringSyntaxAttribute.Uri)] string UrlIcons)
-        {
-            IconSets.Initialize(services.BuildServiceProvider().GetRequiredService<HttpClient>(), UrlIcons);
-            return services;
-        }
-#elif NET8_0
+#elif NET7_0 || NET8_0 || NET9_0
        public static IServiceCollection AddLucideIcons(this IServiceCollection services, [StringSyntax(StringSyntaxAttribute.Uri)] string UrlIcons)
         {
             IconSets.Initialize(services.BuildServiceProvider().GetRequiredService<HttpClient>(), UrlIcons);
